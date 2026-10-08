@@ -5,6 +5,11 @@ A simple desktop GUI (Python/Tkinter) for batch-converting Thermo `.raw` mass sp
 
 Packaged by Eylan Yutuc.
 
+## Download
+
+Ready-to-run Windows executable (no Python needed): **[Download page](https://e-yut.github.io/RAWMzMLConverter/)**
+or the [latest release](https://github.com/e-yut/RAWMzMLConverter/releases/latest).
+
 ## Features
 
 - Add individual `.raw` files or a whole folder

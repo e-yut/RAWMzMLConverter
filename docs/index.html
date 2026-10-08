@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Thermo RAW to mzML Converter</title>
+<style>
+  body{font-family:Segoe UI,system-ui,sans-serif;max-width:760px;margin:2rem auto;padding:0 1rem;line-height:1.55;color:#1f2933}
+  h1{margin-bottom:.2rem} .sub{color:#52606d;margin-top:0}
+  .btn{display:inline-block;background:#0b6bcb;color:#fff;padding:.8rem 1.4rem;border-radius:6px;text-decoration:none;font-weight:600}
+  .btn:hover{background:#0953a0}
+  .note{background:#f5f7fa;border-left:4px solid #9aa5b1;padding:.6rem 1rem;margin:1.2rem 0}
+  code{background:#eef1f4;padding:.1rem .3rem;border-radius:3px}
+  footer{margin-top:2.5rem;color:#52606d;font-size:.9rem}
+</style>
+</head>
+<body>
+<h1>Thermo RAW to mzML Converter</h1>
+<p class="sub">Batch-convert Thermo <code>.raw</code> files to <code>.mzML</code> on Windows. No Python or installation needed.</p>
+
+<p><a class="btn" href="https://github.com/e-yut/RAWMzMLConverter/releases/latest/download/RAW_mzML_Converter.exe">Download for Windows (.exe)</a></p>
+<p><a href="https://github.com/e-yut/RAWMzMLConverter/releases/latest">All releases</a> &middot;
+<a href="https://github.com/e-yut/RAWMzMLConverter">Source code</a></p>
+
+<h2>How to use</h2>
+<ol>
+  <li>Download and run <code>RAW_mzML_Converter.exe</code>.</li>
+  <li>Click <b>Add RAW Files</b> or <b>Add Folder</b>.</li>
+  <li>Choose an output folder and options (indexed mzML, GZip, peak picking, MS level, metadata).</li>
+  <li>Click <b>Convert</b>. Output is written to the chosen folder (default <code>mzMLfiles</code>).</li>
+</ol>
+
+<div class="note"><b>Windows SmartScreen:</b> the app is not code-signed, so Windows may show
+"Windows protected your PC". Click <b>More info</b> &rarr; <b>Run anyway</b>.</div>
+
+<h2>Notes</h2>
+<p>Conversion is performed locally by <a href="https://github.com/compomics/ThermoRawFileParser">ThermoRawFileParser</a>
+(Apache-2.0, CompOmics), which uses Thermo Fisher Scientific's RawFileReader libraries under their own license.
+Your data never leaves your computer. If used in published work, please cite Hulstaert et al.,
+<i>J. Proteome Res.</i> 2020, 19(1), 537&ndash;542, doi:10.1021/acs.jproteome.9b00328.</p>
+
+<footer>Packaged by Eylan Yutuc &middot; MIT licensed</footer>
+</body>
+</html>
