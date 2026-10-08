@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+build/
+dist/
+*.spec
+mzMLfiles/
+*.raw
+*.mzML
+*.mzML.gz
+src/ThermoRawFileParser/
+.venv/
